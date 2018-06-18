@@ -166,7 +166,8 @@
         // Pin 27 is taken by LED_PIN, but Melzi LED does nothing with
         // Marlin so this can be used for BEEPER_PIN. You can use this pin
         // with M42 instead of BEEPER_PIN.
-        #define BEEPER_PIN      27
+        // #define BEEPER_PIN      27
+        #define SERVO0_PIN       27 // free for BLTouch/3D-Touch
       #else        // Sanguinololu >=1.3
         #define LCD_PINS_RS      4
         #define LCD_PINS_ENABLE 17
