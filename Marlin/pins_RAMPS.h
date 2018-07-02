@@ -58,7 +58,7 @@
 #ifdef IS_RAMPS_13
   #define SERVO0_PIN        7 // RAMPS_13 // Will conflict with BTN_EN2 on LCD_I2C_VIKI
 #else
-  #define SERVO0_PIN       11
+  #define SERVO0_PIN       37
 #endif
 #define SERVO1_PIN          6
 #define SERVO2_PIN          5
@@ -376,7 +376,7 @@
 
     #if ENABLED(REPRAP_DISCOUNT_SMART_CONTROLLER)
 
-      #define BEEPER_PIN        37
+      //#define BEEPER_PIN        37
 
       #if ENABLED(CR10_STOCKDISPLAY)
         #define BTN_EN1         17
